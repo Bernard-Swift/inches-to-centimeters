@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дюймы в сантиметры</title>
+</head>
+
+<body>
+    <h1>Пересчёт величин</h1>
+    <script type="text/javascript">
+        const ins = window.prompt('Величина в дюймах', 0);
+        let cents = 'Величина не была введена';
+        if (ins != 0)
+            cents = ins * 2.54;
+        window.document.write('<p>', ins, " дюйм. = ", cents, " см.", '</p>');
+    </script>
+</body>
+
+</html>
